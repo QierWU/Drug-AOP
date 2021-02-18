@@ -1,0 +1,425 @@
+name	type	nunber
+(1R,2S,5R)-(-)-Menthol	Drug	1
+(4-Aminophenyl)arsonic acid	Drug	1
+(9Z,12R)-12-Hydroxyoctadec-9-enoic acid	Drug	2
+1-CHLORO-2,4- DINITROBENZENE	Drug	1
+1-Chloro-2,4-dinitrobenzene	Drug	4
+1-Phenyl-3-methyl-5-pyrazolone	Drug	5
+1,8-Cineol	Drug	1
+17-Methyltestosterone	Drug	3
+17alpha-Ethinylestradiol	Drug	5
+17alpha-Hydroxyprogesterone	Drug	3
+17beta-Estradiol	Drug	4
+2',3'-Dideoxycytidine	Drug	1
+2-Ethylhexyl 4-(dimethylamino)benzoate	Drug	9
+2-Hydroxy-4-methoxybenzophenone	Drug	10
+2-Phenoxyethanol	Drug	1
+3'-Azido-3'-deoxythymidine	Drug	2
+3,5,3'-Triiodothyronine	Drug	5
+4-Aminofolic acid	Drug	1
+4-Androstene-3,17-dione	Drug	5
+4-Chlorophenol	Drug	3
+4-Dimethylaminoantipyrine	Drug	2
+4-Hexylresorcinol	Drug	5
+4-Hydroxyandrostenedione	Drug	3
+4-Hydroxytamoxifen	Drug	5
+4-Nitrophenol	Drug	1
+4-Oxopentanoic acid	Drug	1
+5-Azacytidine	Drug	3
+5,6-Benzoflavone	Drug	5
+5alpha-Dihydrotestosterone	Drug	4
+5alpha-reductase, inhibition	MolecularInitiatingEvent	1
+6-Thioguanine	Drug	3
+7-Ethyl-2-methyl-4-undecanolsulfate, sodium salt	Drug	4
+7alpha-hydroxypregnenolone synthesis in the brain, decreased	KeyEvent	1
+9-cis Retinoic acid	Drug	3
+ACE2 inhibition	MolecularInitiatingEvent	2
+Acetaminophen	Drug	5
+Acetohexamide	Drug	5
+Acetylcholinesterase (AchE) Inhibition	MolecularInitiatingEvent	3
+Activation of Cyp2E1	MolecularInitiatingEvent	1
+Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	48
+Activation, 5HT2c	MolecularInitiatingEvent	1
+Activation, AhR	MolecularInitiatingEvent	35
+Activation, Constitutive androstane receptor	MolecularInitiatingEvent	30
+Activation, Estrogen receptor	MolecularInitiatingEvent	134
+Activation, LXR	MolecularInitiatingEvent	29
+Activation, NR1H4	MolecularInitiatingEvent	35
+Activation, PPARalpha	MolecularInitiatingEvent	5
+Activation, PXR/SXR	MolecularInitiatingEvent	110
+Adefovir dipivoxil	Drug	1
+Adenine	Drug	2
+Agonism, Androgen receptor	MolecularInitiatingEvent	2
+Albendazole	Drug	3
+Alkylation, Protein	MolecularInitiatingEvent	1
+all-trans-Retinoic acid	Drug	10
+Allantoin	Drug	2
+Altered gene expression specific to CAR activation, Hepatocytes	KeyEvent	1
+Altered, Chromosome number	KeyEvent	2
+Aminoglutethimide	Drug	2
+Aminooxyacetic acid	Drug	1
+Amiodarone	Drug	5
+Amlodipine	Drug	1
+Amoxapine	Drug	1
+Ampicillin	Drug	1
+Amrinone	Drug	1
+Anastrozole	Drug	4
+Antagonism, Androgen receptor	MolecularInitiatingEvent	1
+Anthralin	Drug	7
+Arotinoid acid	Drug	1
+Artesunate	Drug	1
+Aspirin	Drug	7
+Astemizole	Drug	4
+Atenolol	Drug	1
+Atorvastatin	Drug	1
+Azathioprine	Drug	1
+Benzbromarone	Drug	2
+Benzocaine	Drug	1
+Benzoic acid	Drug	1
+Benzoin	Drug	3
+Benzophenone	Drug	3
+Benzylamine	Drug	1
+beta-Sitosterol	Drug	1
+Betamethasone	Drug	9
+Betamethasone 21-phosphate disodium	Drug	2
+Bexarotene	Drug	6
+Bezafibrate	Drug	5
+Bicalutamide	Drug	3
+Binding at picrotoxin site, iGABAR chloride channel	MolecularInitiatingEvent	2
+Binding of microtubule stabilizing agents (MSA) to microtubules	MolecularInitiatingEvent	2
+Binding of substrate, endocytic receptor	MolecularInitiatingEvent	4
+Binding to (interferes with) topoisomerase II enzyme	MolecularInitiatingEvent	1
+Binding, Immunophilins	KeyEvent	1
+Binding, Transthyretin in serum	MolecularInitiatingEvent	1
+Binding, Tubulin	MolecularInitiatingEvent	4
+Bleomycin	Drug	1
+Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	8
+Bromocriptine	Drug	1
+Budesonide	Drug	5
+Busulfan	Drug	4
+Butanedioic acid	Drug	1
+Candesartan cilexetil	Drug	1
+Carbamazepine	Drug	6
+Carboxin	Drug	6
+Carbutamide	Drug	1
+Carprofen	Drug	1
+Celecoxib	Drug	5
+Chlorambucil	Drug	1
+Chloramphenicol	Drug	1
+Chlorhexidine	Drug	1
+Chlorotrianisene	Drug	2
+Chlorpromazine	Drug	1
+Chlorpropamide	Drug	1
+Chlorzoxazone	Drug	1
+Cidofovir	Drug	1
+Ciprofibrate	Drug	5
+Ciprofloxacin	Drug	1
+Cladribine	Drug	1
+Clofibrate	Drug	5
+Clotrimazole	Drug	11
+Clove leaf oil	Drug	11
+Codeine	Drug	1
+Cognitive Function, Decreased 	AdverseOutcome	2
+Colchicine	Drug	10
+Corticosterone	Drug	3
+Cortisone	Drug	2
+Covalent Binding, Protein	MolecularInitiatingEvent	1
+Cyclosporin A	Drug	1
+CYP2E1 Activation	MolecularInitiatingEvent	10
+CYP7B activity, inhibition	MolecularInitiatingEvent	6
+Cyproterone acetate	Drug	5
+Cytarabine	Drug	1
+D-Lactic acid	Drug	1
+d-Tryptophan	Drug	1
+Danazol	Drug	5
+Dapsone	Drug	4
+Decanoic acid	Drug	7
+Decitabine	Drug	1
+decrease, male anogenital distance	AdverseOutcome	4
+Decreased IL-1 production	KeyEvent	2
+Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	81
+Decreased, 11-ketotestosterone	KeyEvent	2
+Decreased, Androgen receptor activity	MolecularInitiatingEvent	1
+Decreased, cholesterol	KeyEvent	1
+Decreased, Dopaminergic activity	KeyEvent	2
+Decreased, Ovarian E2	KeyEvent	3
+Decreased, PPAR-beta activation	MolecularInitiatingEvent	7
+Deflazacort	Drug	6
+Dehydroepiandrosterone	Drug	2
+Dexamethasone	Drug	7
+Dexamethasone sodium phosphate	Drug	3
+Dichloroacetic acid	Drug	1
+Diethylstilbestrol	Drug	10
+Diflunisal	Drug	1
+Digoxin	Drug	1
+Diltiazem	Drug	1
+Dimethyl sulfoxide	Drug	2
+Disorganization, Spindle	KeyEvent	1
+Disruption, Microtubule dynamics	KeyEvent	1
+Disulfiram	Drug	1
+dl-Menthol	Drug	1
+dl-Norgestrel	Drug	4
+Doxorubicin	Drug	1
+Efavirenz	Drug	1
+Emodin	Drug	3
+Endocytotic lysosomal uptake	MolecularInitiatingEvent	3
+Enflurane	Drug	1
+Entacapone	Drug	1
+Epothilone B	Drug	1
+Equilin	Drug	3
+Estradiol cypionate	Drug	4
+Estriol	Drug	2
+Estrone	Drug	5
+Ethanol	Drug	1
+Ethionamide	Drug	2
+Ethynodiol diacetate	Drug	2
+Etoposide	Drug	6
+Eugenol	Drug	8
+Farnesol	Drug	2
+Febuxostat	Drug	3
+Felodipine	Drug	1
+Fenofibrate	Drug	3
+Fenoxaprop-ethyl	Drug	1
+Finasteride	Drug	7
+Flavone	Drug	6
+Fluconazole	Drug	2
+Flufenamic acid	Drug	1
+Fluocinolone acetonide	Drug	2
+Fluorometholone	Drug	3
+Flurandrenolide	Drug	2
+Flurbiprofen	Drug	1
+Flutamide	Drug	6
+Fluvastatin	Drug	1
+Fluvoxamine	Drug	1
+Folic acid	Drug	4
+Forskolin	Drug	10
+Fulvestrant	Drug	5
+Fumagillin	Drug	2
+Furazolidone	Drug	2
+Furosemide	Drug	1
+Gemfibrozil	Drug	6
+Genistein	Drug	6
+Gentamicin	Drug	1
+Glybenclamide	Drug	2
+Glycerol	Drug	2
+Glycyrrhizin	Drug	1
+Griseofulvin	Drug	1
+Haloperidol	Drug	8
+Halothane	Drug	1
+Hepatocytotoxicity	KeyEvent	1
+Hippocampal anatomy, Altered 	KeyEvent	2
+Hippocampal gene expression, Altered 	KeyEvent	1
+Hippocampal Physiology, Altered	KeyEvent	2
+Histone deacetylase inhibition	MolecularInitiatingEvent	2
+Hydrochlorothiazide	Drug	4
+Hydrogen peroxide	Drug	1
+Hydroquinone	Drug	2
+Hydroxyprogesterone caproate	Drug	6
+Hydroxyurea	Drug	3
+Ibuprofen	Drug	8
+Ifosfamide	Drug	3
+Impaired Ab production	KeyEvent	2
+Impaired IL-1 signaling	KeyEvent	2
+Impaired T cell activation	KeyEvent	2
+impaired, ion channels	MolecularInitiatingEvent	1
+Impaired, Spermatogenesis	KeyEvent	1
+Impairment, T-cell dependent antibody response	AdverseOutcome	1
+Increase, Aneuploid offspring	AdverseOutcome	1
+Increase, cell proliferation (hepatocytes)	KeyEvent	1
+Increase, COX-2 expression	KeyEvent	1
+Increase, DNA methyltransferase inhibition	MolecularInitiatingEvent	1
+Increase, Dopaminergic activity	MolecularInitiatingEvent	1
+Increase, Mitochondrial ATP synthase antagonism	MolecularInitiatingEvent	3
+Increase, Mitochondrial complex III antagonism	MolecularInitiatingEvent	2
+Increase, Oxidative damage to DNA	MolecularInitiatingEvent	1
+Increased, induction of UDPGT's in liver	KeyEvent	1
+Indomethacin	Drug	4
+Induction, persistent proliferation/sustained proliferation	KeyEvent	1
+Infant leukaemia	AdverseOutcome	1
+Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle between diestrus 2 and proestrus inhibits aromatase conversion of testosterone to estradiol	MolecularInitiatingEvent	20
+Inhibition of cystathionine beta-synthase	MolecularInitiatingEvent	1
+Inhibition of mitochondrial DNA polymerase gamma (Pol gamma)	MolecularInitiatingEvent	3
+Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	7
+Inhibition, 5alpha-reductase activity	MolecularInitiatingEvent	1
+Inhibition, Antgonism of NE receptor	MolecularInitiatingEvent	1
+Inhibition, Aromatase	MolecularInitiatingEvent	1
+Inhibition, Calcineurin Activity	MolecularInitiatingEvent	1
+Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	16
+Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	9
+Inhibition, Deiodinase 1	MolecularInitiatingEvent	1
+Inhibition, Ether-a-go-go (ERG) voltage-gated potassium channel 	MolecularInitiatingEvent	3
+Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	17
+Inhibition, IKK complex	MolecularInitiatingEvent	3
+Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	7
+Inhibition, PPAR alpha	MolecularInitiatingEvent	31
+Inhibition, Pyruvate dehydrogenase kinase (PDK) enzyme	MolecularInitiatingEvent	1
+Inhibition, sodium channel	MolecularInitiatingEvent	5
+Inhibition, VegfR2	MolecularInitiatingEvent	3
+Interference, nuclear localization of NFAT	KeyEvent	1
+Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone	MolecularInitiatingEvent	131
+Isoflurane	Drug	1
+Isoniazid	Drug	4
+Kaempferol	Drug	5
+Ketoconazole	Drug	10
+Ketoprofen	Drug	2
+L-Ascorbic acid	Drug	3
+L-Dopa	Drug	1
+l-Tryptophan	Drug	2
+Lactic acid	Drug	1
+Lactose	Drug	1
+Lansoprazole	Drug	2
+Leflunomide	Drug	3
+Letrozole	Drug	4
+Levonorgestrel	Drug	4
+Levothyroxine	Drug	8
+Lidocaine	Drug	1
+Lindane	Drug	3
+Linolenic acid	Drug	4
+Loratadine	Drug	5
+Losartan	Drug	1
+Lovastatin	Drug	5
+Lynestrenol	Drug	6
+Malathion	Drug	4
+Maleic acid	Drug	1
+Meclofenamic acid	Drug	1
+Medroxyprogesterone acetate	Drug	3
+Mefenamic acid	Drug	9
+Megestrol acetate	Drug	2
+Melatonin	Drug	3
+Melengestrol acetate	Drug	4
+Meloxicam	Drug	1
+Menadione	Drug	1
+meso-Hexestrol	Drug	10
+Mestranol	Drug	3
+Metformin	Drug	3
+Methimazole	Drug	10
+Methotrexate	Drug	1
+Methoxyflurane	Drug	1
+Methyl glyoxal	Drug	1
+Methylprednisolone	Drug	3
+Metoprolol	Drug	3
+Metyrapone	Drug	3
+Miconazole	Drug	1
+Mifepristone	Drug	11
+Milrinone	Drug	2
+Minocycline	Drug	4
+Mitochondrial Complex IV inhibition	MolecularInitiatingEvent	4
+Mitochondrial Complex V inhibition	MolecularInitiatingEvent	2
+Mizolastine	Drug	1
+MLL chromosomal translocation	KeyEvent	1
+modulation, sodium channel	MolecularInitiatingEvent	1
+myo-Inositol	Drug	1
+N,N-Dimethylformamide	Drug	1
+Naproxen	Drug	1
+Niacinamide	Drug	3
+Niclosamide	Drug	1
+Nifedipine	Drug	1
+Nilutamide	Drug	1
+Nimesulide	Drug	1
+Nimodipine	Drug	1
+Nisoldipine	Drug	5
+Nitrendipine	Drug	1
+Nitrofurazone	Drug	1
+Nomifensine	Drug	1
+Nonoxynol	Drug	3
+Norethindrone	Drug	3
+Norfloxacin	Drug	1
+o-(Chloroacetylcarbamoyl)fumagillol	Drug	2
+Oxalic acid	Drug	1
+Oxaprozin	Drug	1
+Oxazepam	Drug	3
+Oxidative Stress 	KeyEvent	1
+Oxolinic acid	Drug	1
+Oxytetracycline	Drug	10
+p-Synephrine	Drug	2
+Paclitaxel	Drug	1
+Pentaerythritol tetranitrate	Drug	2
+Permethrin	Drug	3
+peroxisome proliferator activated receptor promoter demethylation	MolecularInitiatingEvent	1
+Phenobarbital	Drug	4
+Phenol	Drug	2
+Phenothiazine	Drug	1
+Phenylacetic acid	Drug	2
+Physostigmine	Drug	1
+Picrotoxin	Drug	1
+Pimozide	Drug	6
+Podofilox	Drug	1
+Polymyxin B	Drug	1
+Potassium nitrate	Drug	2
+Potassium perchlorate	Drug	1
+Praziquantel	Drug	1
+Prednisolone	Drug	3
+Prednisone	Drug	4
+Pregnenolone	Drug	1
+prepubertal increase, Estrogen receptor (ER) activity	MolecularInitiatingEvent	2
+Primidone	Drug	2
+Probenecid	Drug	1
+Progesterone	Drug	6
+Propofol	Drug	1
+Propyl gallate	Drug	2
+Propylthiouracil	Drug	12
+Protein Adduct Formation	MolecularInitiatingEvent	1
+Pulmonary fibrosis	AdverseOutcome	1
+Pyrazinamide	Drug	1
+Pyridoxine	Drug	1
+Pyrimethamine	Drug	2
+Raloxifene	Drug	1
+Reduction, NFAT/AP-1 complex formation	KeyEvent	1
+Reserpine	Drug	4
+Resorcinol	Drug	5
+Resveratrol	Drug	2
+Retinol	Drug	4
+Riboflavin	Drug	2
+Rifampicin	Drug	3
+Roxithromycin	Drug	1
+Sertraline	Drug	1
+Sevoflurane	Drug	1
+Simvastatin	Drug	4
+Sparfloxacin	Drug	1
+Spironolactone	Drug	7
+Stavudine	Drug	1
+Streptozocin	Drug	1
+Suberoylanilide hydroxamic acid	Drug	1
+Sulfacetamide	Drug	1
+Sulfasalazine	Drug	2
+Sulindac	Drug	1
+Suppression, HNF4alpha	MolecularInitiatingEvent	1
+Suppression, IL-2 and IL-4 production	KeyEvent	2
+Tacrine	Drug	1
+Tacrolimus	Drug	5
+Tamoxifen	Drug	7
+Telmisartan	Drug	1
+Temozolomide	Drug	1
+Tenofovir	Drug	1
+Testosterone propionate	Drug	4
+Tetracycline	Drug	6
+Theophylline	Drug	2
+Thiabendazole	Drug	4
+Thimerosal	Drug	2
+Thiol group of chemicals interact with sulfuhydryl groups of proteins to form thiol adducts	MolecularInitiatingEvent	1
+Thyroid hormone synthesis, Decreased	KeyEvent	2
+Thyroperoxidase, Inhibition	MolecularInitiatingEvent	32
+Thyroxine (T4) in neuronal tissue, Decreased 	KeyEvent	2
+Thyroxine (T4) in serum, Decreased	KeyEvent	2
+Tioconazole	Drug	1
+Tiratricol	Drug	5
+Tobramycin	Drug	1
+Tolazamide	Drug	2
+Tolcapone	Drug	2
+Topiramate	Drug	1
+Triamcinolone	Drug	4
+Triamcinolone acetonide	Drug	4
+Triclosan	Drug	6
+Trilostane	Drug	6
+Troglitazone	Drug	8
+Tromethamine	Drug	3
+Valproic acid	Drug	3
+Vancomycin	Drug	1
+Vatalanib	Drug	1
+Verapamil	Drug	2
+Vincristine	Drug	1
+Voriconazole	Drug	1
+Warfarin	Drug	2
+Zenarestat	Drug	3
+Zileuton	Drug	4
+Zonisamide	Drug	1
