@@ -20,7 +20,9 @@ Bipartite network:
 
 ## script
 Here we used case study as example:
+
 Rmd script to calculate:
+*
 
 
 
