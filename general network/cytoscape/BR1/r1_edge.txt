@@ -1,0 +1,944 @@
+Drug.Name	KE.ID	KE.name	KE.type	interaction
+5alpha-Dihydrotestosterone	25	Agonism, Androgen receptor	MolecularInitiatingEvent	directMIE
+Spironolactone	25	Agonism, Androgen receptor	MolecularInitiatingEvent	directMIE
+Letrozole	36	Inhibition, Aromatase	MolecularInitiatingEvent	directMIE
+Naproxen	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Aspirin	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Ibuprofen	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Indomethacin	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Celecoxib	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Troglitazone	228	peroxisome proliferator activated receptor promoter demethylation	MolecularInitiatingEvent	directMIE
+Genistein	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Resorcinol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+1-CHLORO-2,4- DINITROBENZENE	396	Covalent Binding, Protein	MolecularInitiatingEvent	directMIE
+Topiramate	584	Inhibition, sodium channel	MolecularInitiatingEvent	directMIE
+Amiodarone	584	Inhibition, sodium channel	MolecularInitiatingEvent	directMIE
+Zonisamide	584	Inhibition, sodium channel	MolecularInitiatingEvent	directMIE
+Carbamazepine	584	Inhibition, sodium channel	MolecularInitiatingEvent	directMIE
+Lidocaine	584	Inhibition, sodium channel	MolecularInitiatingEvent	directMIE
+Verapamil	593	Inhibition, Ether-a-go-go (ERG) voltage-gated potassium channel 	MolecularInitiatingEvent	directMIE
+Chlorpromazine	593	Inhibition, Ether-a-go-go (ERG) voltage-gated potassium channel 	MolecularInitiatingEvent	directMIE
+Amiodarone	593	Inhibition, Ether-a-go-go (ERG) voltage-gated potassium channel 	MolecularInitiatingEvent	directMIE
+Permethrin	598	modulation, sodium channel	MolecularInitiatingEvent	directMIE
+Thiabendazole	718	Binding, Tubulin	MolecularInitiatingEvent	directMIE
+Podofilox	718	Binding, Tubulin	MolecularInitiatingEvent	directMIE
+Vincristine	718	Binding, Tubulin	MolecularInitiatingEvent	directMIE
+Thiabendazole	723	Altered, Chromosome number	KeyEvent	directKE
+Dichloroacetic acid	724	Inhibition, Pyruvate dehydrogenase kinase (PDK) enzyme	MolecularInitiatingEvent	directMIE
+Flutamide	742	Decreased, Androgen receptor activity	MolecularInitiatingEvent	directMIE
+Bromocriptine	746	Increase, Dopaminergic activity	MolecularInitiatingEvent	directMIE
+Finasteride	790	Inhibition, 5alpha-reductase activity	MolecularInitiatingEvent	directMIE
+Atorvastatin	807	Decreased, cholesterol	KeyEvent	directKE
+Telmisartan	877	Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	directMIE
+Mefenamic acid	877	Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	directMIE
+Ibuprofen	877	Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	directMIE
+Oxaprozin	877	Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	directMIE
+Diflunisal	877	Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	directMIE
+Ketoprofen	877	Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	directMIE
+Indomethacin	877	Inhibition, organic anion transporter 1 (OAT1)	MolecularInitiatingEvent	directMIE
+Tacrolimus	1201	Binding, Immunophilins	KeyEvent	directKE
+Methotrexate	1202	Suppression, IL-2 and IL-4 production	KeyEvent	directKE
+Doxorubicin	1269	Increase, COX-2 expression	KeyEvent	directKE
+Tioconazole	1386	CYP7B activity, inhibition	MolecularInitiatingEvent	directMIE
+Fluconazole	1386	CYP7B activity, inhibition	MolecularInitiatingEvent	directMIE
+Miconazole	1386	CYP7B activity, inhibition	MolecularInitiatingEvent	directMIE
+Voriconazole	1386	CYP7B activity, inhibition	MolecularInitiatingEvent	directMIE
+Clotrimazole	1386	CYP7B activity, inhibition	MolecularInitiatingEvent	directMIE
+Acetaminophen	1391	Activation of Cyp2E1	MolecularInitiatingEvent	directMIE
+Acetaminophen	1392	Oxidative Stress 	KeyEvent	directKE
+Acetaminophen	1393	Hepatocytotoxicity	KeyEvent	directKE
+Acetaminophen	1394	Induction, persistent proliferation/sustained proliferation	KeyEvent	directKE
+Amiodarone	1542	Increase, Mitochondrial complex III antagonism	MolecularInitiatingEvent	directMIE
+Benzbromarone	1542	Increase, Mitochondrial complex III antagonism	MolecularInitiatingEvent	directMIE
+Benzbromarone	1543	Mitochondrial Complex IV inhibition	MolecularInitiatingEvent	directMIE
+Entacapone	1543	Mitochondrial Complex IV inhibition	MolecularInitiatingEvent	directMIE
+Amiodarone	1543	Mitochondrial Complex IV inhibition	MolecularInitiatingEvent	directMIE
+Metformin	1543	Mitochondrial Complex IV inhibition	MolecularInitiatingEvent	directMIE
+Amiodarone	1544	Mitochondrial Complex V inhibition	MolecularInitiatingEvent	directMIE
+Metformin	1544	Mitochondrial Complex V inhibition	MolecularInitiatingEvent	directMIE
+Dexamethasone	1569	Impaired T cell activation	KeyEvent	directKE
+Minocycline	1569	Impaired T cell activation	KeyEvent	directKE
+Dexamethasone	1571	Decreased IL-1 production	KeyEvent	directKE
+Minocycline	1571	Decreased IL-1 production	KeyEvent	directKE
+Dexamethasone	1572	Impaired IL-1 signaling	KeyEvent	directKE
+Minocycline	1572	Impaired IL-1 signaling	KeyEvent	directKE
+Sulindac	1574	Inhibition, IKK complex	MolecularInitiatingEvent	directMIE
+Ibuprofen	1574	Inhibition, IKK complex	MolecularInitiatingEvent	directMIE
+Aspirin	1574	Inhibition, IKK complex	MolecularInitiatingEvent	directMIE
+Paclitaxel	1580	Binding of microtubule stabilizing agents (MSA) to microtubules	MolecularInitiatingEvent	directMIE
+Epothilone B	1580	Binding of microtubule stabilizing agents (MSA) to microtubules	MolecularInitiatingEvent	directMIE
+Dexamethasone	1644	Impaired Ab production	KeyEvent	directKE
+Minocycline	1644	Impaired Ab production	KeyEvent	directKE
+Ketoconazole	1688	decrease, male anogenital distance	AdverseOutcome	directAO
+Dexamethasone	1688	decrease, male anogenital distance	AdverseOutcome	directAO
+beta-Sitosterol	1756	Decreased, 11-ketotestosterone	KeyEvent	directKE
+Carbamazepine	1756	Decreased, 11-ketotestosterone	KeyEvent	directKE
+Flutamide	1758	Impaired, Spermatogenesis	KeyEvent	directKE
+Picrotoxin	667	Binding at picrotoxin site, iGABAR chloride channel	MolecularInitiatingEvent	directMIE
+Lindane	667	Binding at picrotoxin site, iGABAR chloride channel	MolecularInitiatingEvent	directMIE
+Tetracycline	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Eugenol	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Anthralin	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Clofibrate	79	Inhibition, Cyclooxygenase activity	MolecularInitiatingEvent	directMIE
+Tolazamide	697	impaired, ion channels	MolecularInitiatingEvent	directMIE
+Colchicine	718	Binding, Tubulin	MolecularInitiatingEvent	directMIE
+Colchicine	720	Disruption, Microtubule dynamics	KeyEvent	directKE
+Colchicine	721	Disorganization, Spindle	KeyEvent	directKE
+Colchicine	723	Altered, Chromosome number	KeyEvent	directKE
+Colchicine	728	Increase, Aneuploid offspring	AdverseOutcome	directAO
+Diethylstilbestrol	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Benzoin	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Etoposide	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Febuxostat	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Pimozide	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Cytarabine	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Triclosan	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Mifepristone	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Lovastatin	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Colchicine	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Phenobarbital	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Leflunomide	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+3'-Azido-3'-deoxythymidine	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Loratadine	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+o-(Chloroacetylcarbamoyl)fumagillol	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Forskolin	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Bexarotene	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Carboxin	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Levothyroxine	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Cladribine	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Fumagillin	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Clotrimazole	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Lindane	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Permethrin	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Danazol	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Pyrimethamine	715	Activation, Constitutive androstane receptor	MolecularInitiatingEvent	directMIE
+Phenobarbital	716	Increase, cell proliferation (hepatocytes)	KeyEvent	directKE
+Phenobarbital	1214	Altered gene expression specific to CAR activation, Hepatocytes	KeyEvent	directKE
+Trilostane	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Levothyroxine	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Ketoconazole	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Zenarestat	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Pimozide	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Theophylline	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Decanoic acid	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Lovastatin	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Troglitazone	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Amoxapine	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Betamethasone	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Haloperidol	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Astemizole	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Fluvastatin	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Simvastatin	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Clotrimazole	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Reserpine	804	Inhibition, HMG-CoA reductase	MolecularInitiatingEvent	directMIE
+Haloperidol	849	Inhibition, Antgonism of NE receptor	MolecularInitiatingEvent	directMIE
+Ciprofloxacin	1539	Endocytotic lysosomal uptake	MolecularInitiatingEvent	directMIE
+Norfloxacin	1539	Endocytotic lysosomal uptake	MolecularInitiatingEvent	directMIE
+Artesunate	1539	Endocytotic lysosomal uptake	MolecularInitiatingEvent	directMIE
+Betamethasone	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Emodin	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+4-Dimethylaminoantipyrine	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Propylthiouracil	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Leflunomide	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+p-Synephrine	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Menadione	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Clotrimazole	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Hydroxyurea	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Dimethyl sulfoxide	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Anthralin	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Lansoprazole	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Thiabendazole	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Zileuton	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Levothyroxine	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Busulfan	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Methyl glyoxal	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Nisoldipine	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Acetohexamide	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+1-Phenyl-3-methyl-5-pyrazolone	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Niacinamide	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+5,6-Benzoflavone	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Oxytetracycline	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+myo-Inositol	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+3,5,3'-Triiodothyronine	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Kaempferol	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Flavone	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Clove leaf oil	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Ketoconazole	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+l-Tryptophan	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Propyl gallate	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Mifepristone	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+d-Tryptophan	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Carboxin	18	Activation, AhR	MolecularInitiatingEvent	directMIE
+Meclofenamic acid	957	Binding, Transthyretin in serum	MolecularInitiatingEvent	directMIE
+Letrozole	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Forskolin	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+4-Hexylresorcinol	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+4-Hydroxytamoxifen	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Gemfibrozil	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Aminoglutethimide	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+6-Thioguanine	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Fulvestrant	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Tamoxifen	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Malathion	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Dimethyl sulfoxide	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Retinol	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Clotrimazole	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+9-cis Retinoic acid	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+4-Hydroxyandrostenedione	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+4-Androstene-3,17-dione	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Anastrozole	964	Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle b	MolecularInitiatingEvent	directMIE
+Tacrolimus	979	Interference, nuclear localization of NFAT	KeyEvent	directKE
+Kaempferol	980	Inhibition, Calcineurin Activity	MolecularInitiatingEvent	directMIE
+Tacrolimus	981	Reduction, NFAT/AP-1 complex formation	KeyEvent	directKE
+Tacrolimus	984	Impairment, T-cell dependent antibody response	AdverseOutcome	directAO
+Tacrolimus	1202	Suppression, IL-2 and IL-4 production	KeyEvent	directKE
+Propylthiouracil	1009	Inhibition, Deiodinase 1	MolecularInitiatingEvent	directMIE
+Propylthiouracil	277	Thyroid hormone synthesis, Decreased	KeyEvent	directKE
+Methimazole	277	Thyroid hormone synthesis, Decreased	KeyEvent	directKE
+Propylthiouracil	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Methimazole	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Methimazole	281	Thyroxine (T4) in serum, Decreased	KeyEvent	directKE
+Propylthiouracil	281	Thyroxine (T4) in serum, Decreased	KeyEvent	directKE
+Progesterone	12	Acetylcholinesterase (AchE) Inhibition	MolecularInitiatingEvent	directMIE
+Anthralin	12	Acetylcholinesterase (AchE) Inhibition	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	12	Acetylcholinesterase (AchE) Inhibition	MolecularInitiatingEvent	directMIE
+Phenobarbital	1020	Increased, induction of UDPGT's in liver	KeyEvent	directKE
+Indomethacin	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Eugenol	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Deflazacort	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Phenylacetic acid	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Triclosan	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Zileuton	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Levothyroxine	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+1,8-Cineol	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Acetohexamide	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Clotrimazole	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Clove leaf oil	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Mefenamic acid	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Troglitazone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Kaempferol	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Forskolin	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Sulfasalazine	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Warfarin	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Furosemide	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+9-cis Retinoic acid	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Loratadine	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Tolcapone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Candesartan cilexetil	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Ciprofibrate	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Zenarestat	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Oxytetracycline	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Oxazepam	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+7-Ethyl-2-methyl-4-undecanolsulfate, sodium salt	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Malathion	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Decanoic acid	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Gemfibrozil	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Bezafibrate	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Spironolactone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Glybenclamide	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+1-Phenyl-3-methyl-5-pyrazolone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+5,6-Benzoflavone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Nisoldipine	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Linolenic acid	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Tiratricol	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Flufenamic acid	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Mifepristone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Aspirin	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Ibuprofen	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Betamethasone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Flavone	1028	Activation of specific nuclear receptors, PPAR-gamma activation	MolecularInitiatingEvent	directMIE
+Raloxifene	1045	Decreased, Ovarian E2	KeyEvent	directKE
+Tamoxifen	1045	Decreased, Ovarian E2	KeyEvent	directKE
+Fulvestrant	1045	Decreased, Ovarian E2	KeyEvent	directKE
+Diethylstilbestrol	1064	prepubertal increase, Estrogen receptor (ER) activity	MolecularInitiatingEvent	directMIE
+Genistein	1064	prepubertal increase, Estrogen receptor (ER) activity	MolecularInitiatingEvent	directMIE
+Haloperidol	1083	Decreased, Dopaminergic activity	KeyEvent	directKE
+Reserpine	1083	Decreased, Dopaminergic activity	KeyEvent	directKE
+Bleomycin	1458	Pulmonary fibrosis	AdverseOutcome	directAO
+Hydroxyurea	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Kaempferol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Anthralin	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Malathion	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Tolazamide	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Busulfan	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Rifampicin	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Tetracycline	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+17beta-Estradiol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Mifepristone	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+4-Hexylresorcinol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Dapsone	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Aminoglutethimide	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Oxytetracycline	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Tiratricol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Isoniazid	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Clove leaf oil	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Propyl gallate	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Hydroquinone	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Eugenol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+L-Ascorbic acid	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+3,5,3'-Triiodothyronine	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Folic acid	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Troglitazone	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+Carboxin	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+6-Thioguanine	279	Thyroperoxidase, Inhibition	MolecularInitiatingEvent	directMIE
+4-Hexylresorcinol	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Ifosfamide	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Rifampicin	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Resorcinol	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Clofibrate	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Folic acid	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Ibuprofen	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Celecoxib	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Anthralin	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Indomethacin	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Ketoprofen	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Oxytetracycline	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Meloxicam	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+1-Phenyl-3-methyl-5-pyrazolone	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Carprofen	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Nimesulide	1103	Inhibition, Cyclooxygenase 1 activity	MolecularInitiatingEvent	directMIE
+Clotrimazole	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Triamcinolone acetonide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Hydroxyprogesterone caproate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Clove leaf oil	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Benzoin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Febuxostat	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Methylprednisolone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+17alpha-Hydroxyprogesterone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Levonorgestrel	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+3'-Azido-3'-deoxythymidine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Mestranol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Prednisolone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Etoposide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+(9Z,12R)-12-Hydroxyoctadec-9-enoic acid	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Potassium nitrate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Equilin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Methimazole	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Anthralin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+17alpha-Ethinylestradiol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Azathioprine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Letrozole	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Efavirenz	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Glycyrrhizin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Nilutamide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+17beta-Estradiol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Triclosan	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Forskolin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Bicalutamide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Furazolidone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Eugenol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+4-Androstene-3,17-dione	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Glybenclamide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Tetracycline	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Albendazole	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Ketoconazole	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Corticosterone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Benzocaine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Estrone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Dexamethasone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+4-Nitrophenol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Oxytetracycline	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Spironolactone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+4-Hexylresorcinol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+5,6-Benzoflavone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Tromethamine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+4-Hydroxyandrostenedione	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Mifepristone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+1-Chloro-2,4-dinitrobenzene	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Ethynodiol diacetate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Tacrine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Anastrozole	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Carboxin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+17-Methyltestosterone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+3,5,3'-Triiodothyronine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Testosterone propionate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Deflazacort	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Phenothiazine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+7-Ethyl-2-methyl-4-undecanolsulfate, sodium salt	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Trilostane	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Finasteride	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Budesonide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Farnesol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Estriol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Medroxyprogesterone acetate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Chlorhexidine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Codeine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Haloperidol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Melengestrol acetate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+dl-Norgestrel	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Betamethasone 21-phosphate disodium	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Estradiol cypionate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Oxazepam	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Pentaerythritol tetranitrate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Dehydroepiandrosterone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Melatonin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+4-Hydroxytamoxifen	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Sparfloxacin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Mefenamic acid	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Triamcinolone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+dl-Menthol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Theophylline	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Metoprolol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Warfarin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Resveratrol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Tamoxifen	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Valproic acid	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Nitrofurazone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+L-Dopa	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Danazol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Megestrol acetate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Lovastatin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Dapsone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Flutamide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Nonoxynol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Metyrapone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Astemizole	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Colchicine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+l-Tryptophan	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Decanoic acid	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+2-Phenoxyethanol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Permethrin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Prednisone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Riboflavin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Norethindrone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Lynestrenol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Stavudine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Cyproterone acetate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+4-Aminofolic acid	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Leflunomide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Carbamazepine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Fluocinolone acetonide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Progesterone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Celecoxib	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Betamethasone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+(1R,2S,5R)-(-)-Menthol	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Cortisone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Genistein	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Dexamethasone sodium phosphate	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Linolenic acid	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Flurandrenolide	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+6-Thioguanine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Digoxin	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Fluorometholone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+5alpha-Dihydrotestosterone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Sulfasalazine	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+Flavone	1134	Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle	MolecularInitiatingEvent	directMIE
+17alpha-Ethinylestradiol	619	Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	directMIE
+Haloperidol	619	Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	directMIE
+Astemizole	619	Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	directMIE
+Estrone	619	Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	directMIE
+Fluvoxamine	619	Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	directMIE
+Ketoconazole	619	Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	directMIE
+Ethionamide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+2',3'-Dideoxycytidine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Phenol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Primidone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Triclosan	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Benzophenone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+3,5,3'-Triiodothyronine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Mifepristone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Levonorgestrel	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Albendazole	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+4-Chlorophenol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Decanoic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Mestranol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Corticosterone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+17alpha-Hydroxyprogesterone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+17-Methyltestosterone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Pregnenolone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+4-Hexylresorcinol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Forskolin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Potassium perchlorate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Carbamazepine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Pyrimethamine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Tamoxifen	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Retinol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+9-cis Retinoic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Riboflavin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Prednisone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Danazol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Febuxostat	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Isoniazid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Lynestrenol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Linolenic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Equilin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Deflazacort	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Cyproterone acetate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Propylthiouracil	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Arotinoid acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Benzoic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Anastrozole	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Emodin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Melengestrol acetate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Dexamethasone sodium phosphate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Testosterone propionate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+o-(Chloroacetylcarbamoyl)fumagillol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Eugenol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+4-Androstene-3,17-dione	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Progesterone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Clove leaf oil	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Niacinamide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Estriol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Simvastatin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+4-Hydroxytamoxifen	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Fulvestrant	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Genistein	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Flurbiprofen	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Thiabendazole	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Norethindrone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Haloperidol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Levothyroxine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Adenine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+4-Hydroxyandrostenedione	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Budesonide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Pentaerythritol tetranitrate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Clotrimazole	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Etoposide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Pimozide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+(4-Aminophenyl)arsonic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+5alpha-Dihydrotestosterone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Hydroxyprogesterone caproate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Spironolactone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Pyrazinamide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Ifosfamide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+5,6-Benzoflavone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Bexarotene	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Tetracycline	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Dehydroepiandrosterone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Kaempferol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Fluorometholone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Trilostane	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Dapsone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Estrone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Reserpine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Fumagillin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Triamcinolone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+dl-Norgestrel	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Resveratrol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Estradiol cypionate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+D-Lactic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+p-Synephrine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Astemizole	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Resorcinol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Loratadine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+17alpha-Ethinylestradiol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Milrinone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Hydrochlorothiazide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Nonoxynol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Hydroxyurea	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+L-Ascorbic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Furazolidone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Colchicine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Ethynodiol diacetate	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Tiratricol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Oxolinic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Triamcinolone acetonide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Metformin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+17beta-Estradiol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Flavone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Chlorotrianisene	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Troglitazone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Fenoxaprop-ethyl	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Pyridoxine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+1-Chloro-2,4-dinitrobenzene	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Glycerol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Gemfibrozil	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Oxazepam	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Atenolol	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Folic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Niclosamide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Lactic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Ibuprofen	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Busulfan	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Acetohexamide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Cyclosporin A	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Oxalic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Mefenamic acid	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Benzylamine	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Betamethasone	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Sulfacetamide	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Carboxin	1181	Activation, Estrogen receptor	MolecularInitiatingEvent	directMIE
+Etoposide	1252	Binding to (interferes with) topoisomerase II enzyme	MolecularInitiatingEvent	directMIE
+Etoposide	1253	MLL chromosomal translocation	KeyEvent	directKE
+Etoposide	1254	Infant leukaemia	AdverseOutcome	directAO
+Sertraline	619	Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)	MolecularInitiatingEvent	directMIE
+Ketoconazole	1386	CYP7B activity, inhibition	MolecularInitiatingEvent	directMIE
+Ketoconazole	1387	7alpha-hydroxypregnenolone synthesis in the brain, decreased	KeyEvent	directKE
+Disulfiram	1462	Thiol group of chemicals interact with sulfuhydryl groups of proteins to form thiol adducts	MolecularInitiatingEvent	directMIE
+Adefovir dipivoxil	1481	Inhibition of mitochondrial DNA polymerase gamma (Pol gamma)	MolecularInitiatingEvent	directMIE
+Cidofovir	1481	Inhibition of mitochondrial DNA polymerase gamma (Pol gamma)	MolecularInitiatingEvent	directMIE
+Tenofovir	1481	Inhibition of mitochondrial DNA polymerase gamma (Pol gamma)	MolecularInitiatingEvent	directMIE
+Vancomycin	1486	Binding of substrate, endocytic receptor	MolecularInitiatingEvent	directMIE
+Gentamicin	1486	Binding of substrate, endocytic receptor	MolecularInitiatingEvent	directMIE
+Polymyxin B	1486	Binding of substrate, endocytic receptor	MolecularInitiatingEvent	directMIE
+Tobramycin	1486	Binding of substrate, endocytic receptor	MolecularInitiatingEvent	directMIE
+Acetaminophen	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Isoflurane	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Chlorzoxazone	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Acetohexamide	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Methoxyflurane	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Ethanol	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Sevoflurane	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Isoniazid	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Enflurane	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Halothane	1508	CYP2E1 Activation	MolecularInitiatingEvent	directMIE
+Isoniazid	1509	Protein Adduct Formation	MolecularInitiatingEvent	directMIE
+Nimodipine	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Verapamil	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Amlodipine	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Nifedipine	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Felodipine	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Nitrendipine	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Diltiazem	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Nisoldipine	1529	Blockade, L-Type Calcium Channels 	MolecularInitiatingEvent	directMIE
+Suberoylanilide hydroxamic acid	1502	Histone deacetylase inhibition	MolecularInitiatingEvent	directMIE
+Valproic acid	1502	Histone deacetylase inhibition	MolecularInitiatingEvent	directMIE
+Decitabine	1785	Increase, Mitochondrial ATP synthase antagonism	MolecularInitiatingEvent	directMIE
+5-Azacytidine	1785	Increase, Mitochondrial ATP synthase antagonism	MolecularInitiatingEvent	directMIE
+Temozolomide	1785	Increase, Mitochondrial ATP synthase antagonism	MolecularInitiatingEvent	directMIE
+Hydrogen peroxide	1634	Increase, Oxidative damage to DNA	MolecularInitiatingEvent	directMIE
+Aminooxyacetic acid	1657	Inhibition of cystathionine beta-synthase	MolecularInitiatingEvent	directMIE
+Finasteride	1617	5alpha-reductase, inhibition	MolecularInitiatingEvent	directMIE
+Flutamide	26	Antagonism, Androgen receptor	MolecularInitiatingEvent	directMIE
+Flutamide	1688	decrease, male anogenital distance	AdverseOutcome	directAO
+Finasteride	1688	decrease, male anogenital distance	AdverseOutcome	directAO
+Losartan	1740	ACE2 inhibition	MolecularInitiatingEvent	directMIE
+Streptozocin	1740	ACE2 inhibition	MolecularInitiatingEvent	directMIE
+Clove leaf oil	9	Activation, 5HT2c	MolecularInitiatingEvent	directMIE
+5-Azacytidine	1619	Increase, DNA methyltransferase inhibition	MolecularInitiatingEvent	directMIE
+Mefenamic acid	232	Decreased, PPAR-beta activation	MolecularInitiatingEvent	directMIE
+Finasteride	232	Decreased, PPAR-beta activation	MolecularInitiatingEvent	directMIE
+Mifepristone	232	Decreased, PPAR-beta activation	MolecularInitiatingEvent	directMIE
+Spironolactone	232	Decreased, PPAR-beta activation	MolecularInitiatingEvent	directMIE
+Ibuprofen	232	Decreased, PPAR-beta activation	MolecularInitiatingEvent	directMIE
+Albendazole	232	Decreased, PPAR-beta activation	MolecularInitiatingEvent	directMIE
+Bezafibrate	232	Decreased, PPAR-beta activation	MolecularInitiatingEvent	directMIE
+Bezafibrate	227	Activation, PPARalpha	MolecularInitiatingEvent	directMIE
+Gemfibrozil	227	Activation, PPARalpha	MolecularInitiatingEvent	directMIE
+Ciprofibrate	227	Activation, PPARalpha	MolecularInitiatingEvent	directMIE
+Fenofibrate	227	Activation, PPARalpha	MolecularInitiatingEvent	directMIE
+Clofibrate	227	Activation, PPARalpha	MolecularInitiatingEvent	directMIE
+Retinol	244	Alkylation, Protein	MolecularInitiatingEvent	directMIE
+Propylthiouracil	280	Thyroxine (T4) in neuronal tissue, Decreased 	KeyEvent	directKE
+Methimazole	280	Thyroxine (T4) in neuronal tissue, Decreased 	KeyEvent	directKE
+Methimazole	402	Cognitive Function, Decreased 	AdverseOutcome	directAO
+Propylthiouracil	402	Cognitive Function, Decreased 	AdverseOutcome	directAO
+Methimazole	756	Hippocampal gene expression, Altered 	KeyEvent	directKE
+Propylthiouracil	757	Hippocampal anatomy, Altered 	KeyEvent	directKE
+Methimazole	757	Hippocampal anatomy, Altered 	KeyEvent	directKE
+Methimazole	758	Hippocampal Physiology, Altered	KeyEvent	directKE
+Propylthiouracil	758	Hippocampal Physiology, Altered	KeyEvent	directKE
+Oxytetracycline	305	Inhibition, VegfR2	MolecularInitiatingEvent	directMIE
+Chlorambucil	305	Inhibition, VegfR2	MolecularInitiatingEvent	directMIE
+Vatalanib	305	Inhibition, VegfR2	MolecularInitiatingEvent	directMIE
+Tromethamine	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Betamethasone	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Celecoxib	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Roxithromycin	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Benzophenone	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Hydroxyprogesterone caproate	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+1-Chloro-2,4-dinitrobenzene	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Primidone	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Troglitazone	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Lynestrenol	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Aspirin	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Phenol	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Ciprofibrate	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Milrinone	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Decanoic acid	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Genistein	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Bexarotene	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Pimozide	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Clotrimazole	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Testosterone propionate	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Tamoxifen	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Forskolin	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Trilostane	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Resorcinol	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Clove leaf oil	167	Activation, LXR	MolecularInitiatingEvent	directMIE
+Fenofibrate	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+N,N-Dimethylformamide	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Troglitazone	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Aspirin	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Mefenamic acid	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+(9Z,12R)-12-Hydroxyoctadec-9-enoic acid	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Zileuton	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Hydrochlorothiazide	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Ibuprofen	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Decanoic acid	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Clofibrate	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Flavone	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Bezafibrate	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Gemfibrozil	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Levothyroxine	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Zenarestat	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Oxytetracycline	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Betamethasone	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Forskolin	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Tiratricol	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Budesonide	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Thimerosal	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Bexarotene	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Clove leaf oil	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Mifepristone	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Eugenol	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Ciprofibrate	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Allantoin	468	Inhibition, PPAR alpha	MolecularInitiatingEvent	directMIE
+Fluconazole	461	Suppression, HNF4alpha	MolecularInitiatingEvent	directMIE
+Deflazacort	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Bezafibrate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Methylprednisolone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+4-Dimethylaminoantipyrine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Triclosan	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Loratadine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Butanedioic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Decanoic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Levothyroxine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Phenylacetic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Nomifensine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Busulfan	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Bicalutamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Clotrimazole	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Chlorpropamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Emodin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Cyproterone acetate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Lynestrenol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Praziquantel	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Benzoin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Mefenamic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Mifepristone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Simvastatin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Forskolin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Troglitazone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+7-Ethyl-2-methyl-4-undecanolsulfate, sodium salt	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+4-Chlorophenol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Folic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Betamethasone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Spironolactone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Estrone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Aspirin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Potassium nitrate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Mizolastine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Carboxin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Levonorgestrel	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Melatonin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Hydrochlorothiazide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Tetracycline	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Celecoxib	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Triamcinolone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Linolenic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Propofol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Chloramphenicol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Lansoprazole	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Pimozide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Medroxyprogesterone acetate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Chlorotrianisene	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Colchicine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Oxytetracycline	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Tromethamine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+5,6-Benzoflavone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Melengestrol acetate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Trilostane	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Propylthiouracil	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Flavone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+1-Phenyl-3-methyl-5-pyrazolone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+dl-Norgestrel	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Budesonide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Ethionamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Flutamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Acetohexamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Haloperidol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Clove leaf oil	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Gemfibrozil	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Mestranol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Bexarotene	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Estradiol cypionate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Nonoxynol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Anastrozole	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Prednisone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Lactose	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Reserpine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Probenecid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Benzophenone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Progesterone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Carbamazepine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Eugenol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+17alpha-Ethinylestradiol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Farnesol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Triamcinolone acetonide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Lovastatin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Danazol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Lindane	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+4-Hydroxytamoxifen	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Ketoconazole	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Hydroxyprogesterone caproate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Nisoldipine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Rifampicin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Malathion	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Tamoxifen	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Ifosfamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Metyrapone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Prednisolone	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+L-Ascorbic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Carbutamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+4-Oxopentanoic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Retinol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Physostigmine	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Metoprolol	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Fulvestrant	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Niacinamide	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Griseofulvin	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Ciprofibrate	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Maleic acid	245	Activation, PXR/SXR	MolecularInitiatingEvent	directMIE
+Colchicine	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+4-Chlorophenol	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Pimozide	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Carbamazepine	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Thimerosal	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Mifepristone	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+4-Androstene-3,17-dione	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Hydrochlorothiazide	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Nisoldipine	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Progesterone	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+1-Chloro-2,4-dinitrobenzene	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Clove leaf oil	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Oxytetracycline	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Cyproterone acetate	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Aspirin	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Lynestrenol	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Forskolin	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Bexarotene	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Tolcapone	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Finasteride	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Adenine	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Clofibrate	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Valproic acid	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Hydroxyprogesterone caproate	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Deflazacort	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Fenofibrate	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Mefenamic acid	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Loratadine	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Triclosan	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+Ketoconazole	479	Activation, NR1H4	MolecularInitiatingEvent	directMIE
+3,5,3'-Triiodothyronine	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Glycerol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Testosterone propionate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Danazol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Clotrimazole	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+all-trans-Retinoic acid	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Letrozole	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Ampicillin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Triamcinolone acetonide	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Levonorgestrel	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Metoprolol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Prednisolone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+17beta-Estradiol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Betamethasone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+2-Ethylhexyl 4-(dimethylamino)benzoate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Haloperidol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Dexamethasone sodium phosphate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Hydroxyprogesterone caproate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Bicalutamide	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Simvastatin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Fluorometholone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Finasteride	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+17alpha-Hydroxyprogesterone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Amrinone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+dl-Norgestrel	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+4-Androstene-3,17-dione	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Medroxyprogesterone acetate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Metyrapone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+meso-Hexestrol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Fulvestrant	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Dapsone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+17alpha-Ethinylestradiol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Zileuton	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Cyproterone acetate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+1-Phenyl-3-methyl-5-pyrazolone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Diethylstilbestrol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Equilin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Methylprednisolone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Genistein	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Megestrol acetate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Hydroquinone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+5alpha-Dihydrotestosterone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Ketoconazole	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Budesonide	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Deflazacort	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Triamcinolone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Resorcinol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+5-Azacytidine	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Clove leaf oil	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+17-Methyltestosterone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Estradiol cypionate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+4-Hydroxytamoxifen	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+7-Ethyl-2-methyl-4-undecanolsulfate, sodium salt	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Flurandrenolide	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Melatonin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Lovastatin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+2-Hydroxy-4-methoxybenzophenone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Oxytetracycline	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Cortisone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Lynestrenol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Tiratricol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Mifepristone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Tetracycline	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Melengestrol acetate	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Norethindrone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Dexamethasone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Prednisone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Estrone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Trilostane	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Progesterone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Allantoin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Betamethasone 21-phosphate disodium	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Eugenol	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Levothyroxine	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Mefenamic acid	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Spironolactone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Fluocinolone acetonide	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Forskolin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Tamoxifen	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Anthralin	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE
+Corticosterone	654	Decreased testosterone by the fetal Leydig cells, Activation by other glucocorticoid receptor agonists	MolecularInitiatingEvent	directMIE

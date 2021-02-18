@@ -1,0 +1,19 @@
+Drug.Name	Event.ID	Event.name	Event.type
+Finasteride	1688	decrease, male anogenital distance	AdverseOutcome
+Flutamide	1688	decrease, male anogenital distance	AdverseOutcome
+Dexamethasone	1688	decrease, male anogenital distance	AdverseOutcome
+Ketoconazole	1688	decrease, male anogenital distance	AdverseOutcome
+Antagonism, Androgen receptor	1614	Decrease, AR activation	NewKeyEvent
+Decrease, AR activation	1687	decrease, transcription of genes by AR	NewKeyEvent
+decrease, transcription of genes by AR	1688	decrease, male anogenital distance	AdverseOutcome
+Decrease, AR activation	26	Antagonism, Androgen receptor	MolecularInitiatingEvent
+decrease, transcription of genes by AR	1614	Decrease, AR activation	NewKeyEvent
+decrease, male anogenital distance	1687	decrease, transcription of genes by AR	NewKeyEvent
+5alpha-reductase, inhibition	1613	Decrease, DHT level	NewKeyEvent
+Decrease, DHT level	1614	Decrease, AR activation	NewKeyEvent
+Decrease, AR activation	286	Altered, Transcription of genes by AR	NewKeyEvent
+Altered, Transcription of genes by AR	1688	decrease, male anogenital distance	AdverseOutcome
+Decrease, DHT level	1617	5alpha-reductase, inhibition	MolecularInitiatingEvent
+Decrease, AR activation	1613	Decrease, DHT level	NewKeyEvent
+Altered, Transcription of genes by AR	1614	Decrease, AR activation	NewKeyEvent
+decrease, male anogenital distance	286	Altered, Transcription of genes by AR	NewKeyEvent
