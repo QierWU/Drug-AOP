@@ -4,14 +4,14 @@ All the the data files, script and network files supporting this study are provi
 ## data files
 
 ### general network study
-All the input and output data of general network :
+All the input and output data for general network :
 * general network/general network data.xlsx
 
-Two Bipartite network:
+Two Bipartite networks:
 * general network/cytoscape
 
 ### case study: infertility
-All the input and output data of general network :
+All the input and output data for case study :
 * infertility data.xlsx
 * infertility.txt (file used to calculate information loss)
 
