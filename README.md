@@ -3,7 +3,7 @@ All the the data files, script and network files supporting this study are provi
 enviroment:
 * R (version 3.5.3)
 * Rstudio (version Version 1.3.1093)
-* python (version 3.6.13)
+* python (version 3.7)
 * Ubuntu (version Ubuntu 18.04.5 LTS)
 
 ## data files
