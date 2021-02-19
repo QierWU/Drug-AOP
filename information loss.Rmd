@@ -1,0 +1,881 @@
+---
+title: "drug_AOP"
+author: "Bagdad Youcef,WU Qier"
+date: "19/02/2021"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(reticulate)
+library(igraph)
+```
+
+
+--------------------------------------It need to change some variables depending on your table----------------------------------
+# Data input
+```{r}
+nbr_event_classs=3 #number of AOP event class
+
+drug_tar_table=read.delim('infertility.txt',sep='\t',dec=".",header = T)
+drug_tar_table
+unique(length(table(drug_tar_table$Event.type)))
+sum(is.na(drug_tar_table))
+diff_fmls=table(drug_tar_table$Event.type)
+tab_1=drug_tar_table[which(drug_tar_table$Event.type==names(diff_fmls[1])),]
+for (i in (2:length(table(diff_fmls)))){
+  tab_=drug_tar_table[which(drug_tar_table$Event.type==names(diff_fmls[i])),]
+  tar_nm_tab=rbind(tab_1,tab_)
+  tab_1=tar_nm_tab
+}
+diff_fmls
+
+
+```
+
+```{r}
+nbr_lignes2=sum(diff_fmls[1:nbr_event_classs])
+tab_donnees2=tar_nm_tab[1:nbr_lignes2,]
+tab_donnees2
+
+```
+```
+infertility table:
+Drug.Name	Event.ID	Event.name	Event.type
+Finasteride	1688	decrease, male anogenital distance	AdverseOutcome
+Flutamide	1688	decrease, male anogenital distance	AdverseOutcome
+Dexamethasone	1688	decrease, male anogenital distance	AdverseOutcome
+Ketoconazole	1688	decrease, male anogenital distance	AdverseOutcome
+Antagonism, Androgen receptor	1614	Decrease, AR activation	NewKeyEvent
+Decrease, AR activation	1687	decrease, transcription of genes by AR	NewKeyEvent
+decrease, transcription of genes by AR	1688	decrease, male anogenital distance	AdverseOutcome
+Decrease, AR activation	26	Antagonism, Androgen receptor	MolecularInitiatingEvent
+decrease, transcription of genes by AR	1614	Decrease, AR activation	NewKeyEvent
+decrease, male anogenital distance	1687	decrease, transcription of genes by AR	NewKeyEvent
+5alpha-reductase, inhibition	1613	Decrease, DHT level	NewKeyEvent
+Decrease, DHT level	1614	Decrease, AR activation	NewKeyEvent
+Decrease, AR activation	286	Altered, Transcription of genes by AR	NewKeyEvent
+Altered, Transcription of genes by AR	1688	decrease, male anogenital distance	AdverseOutcome
+Decrease, DHT level	1617	5alpha-reductase, inhibition	MolecularInitiatingEvent
+Decrease, AR activation	1613	Decrease, DHT level	NewKeyEvent
+Altered, Transcription of genes by AR	1614	Decrease, AR activation	NewKeyEvent
+decrease, male anogenital distance	286	Altered, Transcription of genes by AR	NewKeyEvent
+```
+
+```{r}
+tar_nm=tab_donnees2$Event.name
+drg_nm=tab_donnees2$Drug.Name
+dr_class=tab_donnees2$Event.type
+dr_id=tab_donnees2$Event.ID
+```
+
+
+## this part is to change variables in R to python
+```{python}
+tar_nm_py=r.tar_nm 
+drg_nm_py=r.drg_nm
+dr_class_py=r.dr_class
+```
+
+## bipartite network
+
+```{python}
+dic_tar_class={}
+co=0
+for tar in (tar_nm_py):   
+  if(tar not in dic_tar_class.keys()):
+    dic_tar_class[tar]=dr_class_py[co]
+  co=co+1
+
+```
+
+```{python}
+sm1=[]
+sm2=[]
+sm3=[]
+sm4=[]
+list_pass=[]
+for a in range(len(tar_nm_py)):
+  ar=[tar_nm_py[a],drg_nm_py[a]]
+  if(ar not in list_pass and ([drg_nm_py[a],tar_nm_py[a]] not in list_pass ) and drg_nm_py[a]!= tar_nm_py[a]):
+    list_pass.append(ar)
+    sm1.append(tar_nm_py[a])
+    sm2.append(drg_nm_py[a])
+    sm3.append("interact")
+    sm4.append(dic_tar_class[tar_nm_py[a]])
+    
+```
+
+
+```{r}
+df_gr_bipartite=data.frame(drug=py$sm2,AOP_event=py$sm1,interaction=py$sm3,AOP_event_type=py$sm4)
+
+#write.table(df_gr_bipartite,file="graph_bipartite.txt",quote = F,row.names = F,sep = "\t")
+
+```
+
+--------------------------------------------------increase in uncertainty ---------------------------------------------
+#H before calculation
+
+## Hbefore for graph :
+
+-vertex1: drug name
+-vertex2: AOP event
+
+```{python}
+
+def tous_linkages_paterns(vertex1,vertex2):
+  linkage_paterns={}
+  for r in range(len(vertex1)):
+    linkage_paterns[vertex1[r]]=[]
+  lp_drugs_list=[]
+  for pos in range(len(vertex1)):
+        if(vertex2[pos] not in linkage_paterns[vertex1[pos]]):
+          linkage_paterns[vertex1[pos]].append(vertex2[pos])
+          
+  return linkage_paterns
+
+```
+
+### linkage patterns in bipartite graph
+
+```{python}
+def redon_lp(values_list_lp2): 
+  red_lp2={} 
+  liste_pass=[]
+  co=0
+  for lp in values_list_lp2:
+    if(lp not in liste_pass): 
+      liste_pass.append(lp)
+      red_lp2[co]=values_list_lp2.count(lp)
+      co=co+1
+  return (red_lp2,liste_pass)
+
+```
+
+
+```{python}
+import math
+
+def calcul_h_before(drg_nm_py,tar_nm_py):
+  linkage_paterns2=tous_linkages_paterns(drg_nm_py,tar_nm_py) #list of linkage patterns
+
+  values_list_lp2=[] #all the linkage patterns
+  for key in linkage_paterns2:
+    val_lp_sort=sorted(linkage_paterns2[key])
+    values_list_lp2.append(val_lp_sort)
+
+
+  red=redon_lp(values_list_lp2) 
+  red_lp2=red[0]
+  list_ts_lp=red[1]
+  H_before2=0
+  for keyss in red_lp2:
+    H_before2=H_before2+(red_lp2[keyss]/sum(red_lp2.values()))*(math.log(red_lp2[keyss]/sum(red_lp2.values())))
+  H_before2=-H_before2
+  return (H_before2, values_list_lp2,list_ts_lp)
+```
+
+
+### result: Hbefore for global graph 
+```{python}
+  
+clc_h=calcul_h_before(drg_nm_py,tar_nm_py)
+
+values_list_lp2=clc_h[1]
+H_before2=clc_h[0]
+# Hbefore for global graph 
+H_before2
+```
+```
+H_before2: 1.7677614722893296
+```
+
+```{python}
+len(values_list_lp2) #number of linkage patterns in the graph 
+```
+```
+len(values_list_lp2)=11
+```
+
+
+# calculate Hbefore for each vertex
+
+number of vertices in graph
+-length(ts_tar): all your number AOP event; length(ts_drug): all your number of drugs
+-attention: if you calculate loss information with KER, here length(ts_drug)=number of vertices in graph
+```{r}
+ts_tar=names(table(tar_nm))
+ts_drug=names(table(drg_nm))
+nbr_vertexs=length(ts_tar)+length(ts_drug)
+#or nbr_vertexs=length(ts_drug)
+length(ts_tar)
+length(ts_drug)
+```
+```
+length(ts_tar)=7 (number of AOPevent)
+length(ts_drug)=11 (number of drug+AOPevent)
+```
+
+```{python}
+import pandas as pd
+Hbefore_vertices=pd.DataFrame(columns=['h_bfr','event'])
+```
+
+
+```{python}
+import math
+co=0
+list_h_bfr_ch_tar=[]
+list_vrai_tar=[]
+ts_tar=r.ts_tar
+for tar in ts_tar:
+  for lp in values_list_lp2:
+    if(tar in lp ):
+      co=co+1
+  if(co!=0):
+    h_tar=(co/len(values_list_lp2))*math.log(co/len(values_list_lp2))
+    list_h_bfr_ch_tar.append(-h_tar)
+    list_vrai_tar.append(tar)
+    Hbefore_vertices=Hbefore_vertices.append({'event': tar,'h_bfr': -h_tar}, ignore_index=True)
+  co=0
+print(list_h_bfr_ch_tar)
+```
+```
+[Antagonism, Androgen receptor: 0.217990479345306, Altered, Transcription of genes by AR: 0.309954198588805, Decrease, DHT level: 0.309954198588805, decrease, transcription of genes by AR: 0.309954198588805, 5alpha-reductase, inhibition: 0.217990479345306, decrease, male anogenital distance: 0.330619529220172, Decrease, AR activation: 0.367854876973993]
+```
+
+```{r}
+Hbefore_vertices<-py$Hbefore_vertices
+Hbefore_vertices<-unique(Hbefore_vertices)
+#write.table(Hbefore_vertices,"h_before_vertices.txt",row.names = F,sep="\t",quote=F)
+```
+
+```{python}
+
+dic_tar_class={}
+co=0
+for tar in (tar_nm_py):  
+  if(tar not in dic_tar_class.keys()):
+    dic_tar_class[tar]=dr_class_py[co]
+  co=co+1
+
+```
+
+
+
+```{r}
+event_type=names(table(dr_class))[1:nbr_event_classs]
+event_type
+
+```
+```
+["AdverseOutcome", "MolecularInitiatingEvent" "NewKeyEvent" ]
+```
+
+```{python}
+dic_h_bfr={}
+for i in r.event_type:
+  dic_h_bfr[i]=0
+```
+
+
+```{python}
+
+i=0
+for event_class in r.event_type:
+  for tar in list_vrai_tar:
+    if(dic_tar_class[tar]==event_class):
+      dic_h_bfr[dic_tar_class[tar]]=dic_h_bfr[dic_tar_class[tar]]+list_h_bfr_ch_tar[i]
+    i=i+1
+  i=0
+
+
+```
+
+# monopartite graph projection
+
+```{python}
+une_erete=[]
+list_art=[]
+list_art_avc_red=[] 
+for list_liaison in values_list_lp2:
+  if(len(list_liaison)!=1): 
+    for adv in list_liaison:
+      for adv2 in list_liaison:
+        if(adv!=adv2):
+          une_edge=[adv,adv2]
+          if([adv2,adv] not in list_art_avc_red):
+            list_art_avc_red.append(une_edge)
+          if(une_edge not in list_art and [adv2,adv] not in list_art): 
+            list_art.append(une_edge)
+
+#the associations in monopartite network 
+list_art
+
+
+```
+```
+[['Decrease, AR activation', 'decrease, male anogenital distance'], ['Altered, Transcription of genes by AR', 'Antagonism, Androgen receptor'], ['Altered, Transcription of genes by AR', 'Decrease, DHT level'], ['Altered, Transcription of genes by AR', 'decrease, transcription of genes by AR'], ['Antagonism, Androgen receptor', 'Decrease, DHT level'], ['Antagonism, Androgen receptor', 'decrease, transcription of genes by AR'], ['Decrease, DHT level', 'decrease, transcription of genes by AR'], ['5alpha-reductase, inhibition', 'Decrease, AR activation']]
+```
+
+```{python}
+dico_tar_red={}
+co=0  
+list_passe=[] 
+for tar in tar_nm_py: 
+  if(tar not in list_passe): 
+    list_passe.append(tar) 
+    for ar in list_art:
+      if(ar[0]==tar or ar[1]==tar):
+        co=co+1
+    dico_tar_red[tar]=co
+  co=0
+
+```
+
+```{python}
+import math
+
+list_h_aftr_ch_tar=[]
+list_vrai_tar2=[]
+ts_tar=r.ts_tar
+for tar in ts_tar:
+  if(tar in dico_tar_red.keys() and dico_tar_red[tar]!=0):
+    list_vrai_tar2.append(tar)
+  
+
+```
+
+
+## this part is to calculate the number of AOP event in each class
+```{python}
+nbr_sm={}
+for event_class in r.event_type:
+  nbr_sm[event_class]=0
+  
+
+i=0
+for event_class in r.event_type:
+  for tar in list_vrai_tar2:
+    if(dic_tar_class[tar]==event_class):
+      nbr_sm[dic_tar_class[tar]]=nbr_sm[dic_tar_class[tar]]+1
+    i=i+1
+  i=0
+
+nbr_sm
+
+nbr_sm_list=[]
+for i in nbr_sm:
+  nbr_sm_list.append(nbr_sm[i])
+
+```
+```
+{'AdverseOutcome': 1, 'MolecularInitiatingEvent': 2, 'NewKeyEvent': 4}
+```
+
+## H after calculation
+
+```{python}
+tslp=clc_h[2]
+ar=[]
+passe=[]
+liste_lp_gr=[]
+lst_grph=[]
+for lp in tslp:
+  if(len(lp)!=1):
+    for sm1 in lp:
+      for sm2 in lp:
+        ar=[sm1,sm2]
+        if(sm1!= sm2 and [sm2,sm1] not in passe and ar not in passe):
+          liste_lp_gr.append(sm1)
+          liste_lp_gr.append(sm2)
+    lst_grph.append(liste_lp_gr)
+    liste_lp_gr=[]
+
+```
+
+
+## calculate Hafter for each vertex
+
+```{python}
+
+number_cliques=0
+h_sm_lp_dic={}
+for lp in tslp:
+  if(len(lp)!=1):
+    for sm in lp:
+      h_sm_lp_dic[sm]=0
+
+i=0
+for lp in tslp:
+  if(len(lp)!=1):
+    for sm in lp:
+      if h_sm_lp_dic[sm]< (-math.log(1/(2**(len(lp))))):
+        h_sm_lp_dic[sm]=-math.log(1/(2**(len(lp))))  #H after for each vertex
+        number_cliques=number_cliques+2**(len(lp)) #number of cliques for monopartite graph
+    i=i+1
+
+
+h_sm_lp=[]
+for i in h_sm_lp_dic:
+  h_sm_lp.append(h_sm_lp_dic[i]) 
+```
+
+```{python}
+import pandas as pd
+H_after_vertices = [h_sm_lp_dic]
+H_after_vertices= pd.DataFrame(H_after_vertices,index=[0]).T
+```
+
+```{r}
+H_after_vertices<-py$H_after_vertices
+names(H_after_vertices)[1]<-"Hafter_vertices"
+#write.table(H_after_vertices,"h_after.txt",row.names = T,sep="\t",quote=F)
+```
+```
+[Antagonism, Androgen receptor: 2.77258872223978, Altered, Transcription of genes by AR: 2.77258872223978, Decrease, DHT level: 2.77258872223978, decrease, transcription of genes by AR: 2.77258872223978, 5alpha-reductase, inhibition:1.38629436111989,decrease, male anogenital distance: 1.38629436111989, Decrease, AR activation: 1.38629436111989]
+```
+
+```{python}
+dic_h_aftr={}
+for i in r.event_type:
+  dic_h_aftr[i]=0
+  
+i=0
+for event_class in r.event_type:
+  for tar in list_vrai_tar2:
+    if(dic_tar_class[tar]==event_class):
+      dic_h_aftr[dic_tar_class[tar]]=dic_h_aftr[dic_tar_class[tar]]+h_sm_lp[i]
+      nbr_sm[dic_tar_class[tar]]=nbr_sm[dic_tar_class[tar]]+1
+    i=i+1
+  i=0
+
+```
+
+# H after for global graph
+
+```{python}
+
+nbr_cliques=number_cliques
+
+H_after=-nbr_cliques*(1/nbr_cliques)*math.log(1/nbr_cliques)
+H_after
+
+```
+```
+H_after= 4.330733340286331
+```
+
+```{python}
+import math
+list_lp_de_ar=[]
+deb=0
+for lp in values_list_lp2:
+  if(len(lp)>=2):
+    nbr_ar=int(math.factorial(len(lp))/(2*math.factorial(len(lp)-2)))
+    fin=deb+nbr_ar
+    list_lp_de_ar.append(list_art_avc_red[deb:fin])
+    deb=fin
+```
+
+
+```{python}
+import math
+co=0
+nbr_art=len(list_art)
+list_art_h_bfr=[]
+for art in list_art:
+  for lp in list_lp_de_ar :
+    if(art in lp or [art[1],art[0]] in lp ):
+      co=co+1
+  h_art=-(co/nbr_art)*math.log(co/nbr_art)
+  co=0
+  list_art_h_bfr.append(h_art)
+
+```
+
+
+```{python}
+
+art_fml_h_bfr={}
+for f in  r.event_type:
+  art_fml_h_bfr[f]=0
+
+
+i=0  
+for fml in r.event_type:
+  for ar in list_art:
+    if(dic_tar_class[ar[0]]==fml or dic_tar_class[ar[1]]==fml ):
+      art_fml_h_bfr[fml]=art_fml_h_bfr[fml]+list_art_h_bfr[i]
+    i=i+1
+  i=0
+
+```
+
+
+```{python}
+h_art_aftr=[]
+list_art_h_aftr=[]
+for art in list_art:
+  h_art_aftr=-(1/len(list_art))*math.log(1/len(list_art))
+  list_art_h_aftr.append(h_art_aftr)
+
+art_fml_h_aftr={}
+for f in  r.event_type:
+  art_fml_h_aftr[f]=0
+
+```
+
+# information of monopartite graph: 
+-the number of edge in each AOP event class
+-the number of vertex in each AOP event class
+-the degree of vertices in each AOP event class
+```{python}
+nbr_ar={}
+for event_class in r.event_type:
+  nbr_ar[event_class]=0
+  
+i=0  
+for fml in r.event_type:
+  for ar in list_art:
+    if(dic_tar_class[ar[0]]==fml or dic_tar_class[ar[1]]==fml ):
+      art_fml_h_aftr[fml]=art_fml_h_aftr[fml]+list_art_h_aftr[i]
+      nbr_ar[fml]=nbr_ar[fml]+1
+    i=i+1
+  i=0
+
+nbr_art=[]
+for i in nbr_ar:
+  nbr_art.append(nbr_ar[i])  
+
+```
+
+
+```{python}
+dic_deg_sm={}
+
+for tar in list_vrai_tar2:
+  dic_deg_sm[tar]=0
+
+for tar in dic_deg_sm:
+  for ar in list_art:
+    if(tar == ar[0] or tar==ar[1]):
+      dic_deg_sm[tar]=dic_deg_sm[tar]+1
+
+```
+
+
+```{python}
+dic_deg_fml={}
+
+for fml in r.event_type:
+  dic_deg_fml[fml]=0
+
+for event_class in r.event_type:
+  for tar in list_vrai_tar2:
+    if(dic_tar_class[tar]==event_class):
+      dic_deg_fml[event_class]=dic_deg_fml[event_class]+dic_deg_sm[tar]
+```
+
+
+```{python}
+fml_deg=[]
+i=0
+for fml in dic_deg_fml:
+  if(nbr_sm_list[i]!=0):
+    fml_deg.append(dic_deg_fml[fml]/nbr_sm_list[i]) 
+    i=i+1
+  else:
+    fml_deg.append(0.0)
+    i=i+1 
+
+
+```
+
+## monopartite network
+```{r}
+recap_gr_mono=data.frame(event_classs=names(diff_fmls[1:nbr_event_classs]),number_vertexs=py$nbr_sm_list,number_edges=py$nbr_art,degree_vertexs=py$fml_deg)
+recap_gr_mono
+
+write.table(recap_gr_mono, "information_graph_monopartite.csv", row.names=FALSE, sep="\t",dec=".", na=" ")
+```
+
+----------------------------------------loss of coverage calculation-----------------------------------------
+
+# loss of coverage at edge level
+```{python}
+
+def calcul_cov(values_list_lp2,ok_each_edge): 
+  dict_id_lp={}
+  list_passee=[] 
+  liste_lp=[]
+
+
+  for lp in values_list_lp2:
+    if(len(lp) != 1):
+      liste_lp.append(lp)
+
+  redo_lp_mono=redon_lp(liste_lp)[0]
+
+  co=0
+  for i in liste_lp:
+    if( i not in list_passee):
+      dict_id_lp[co]=i
+      list_passee.append(i)
+      co=co+1
+
+  all_edges_possibles=[]
+  lis_art=[]
+  art=[] #edges
+  dictio_list_art={}
+  coo=0
+  for lp in dict_id_lp.values():
+    for efsec1 in lp:
+      for efsec2 in lp:
+        if(efsec1!=efsec2):
+          art=[efsec1,efsec2]
+          lis_art.append(art)
+          if(art not in all_edges_possibles and [efsec2,efsec1] not in all_edges_possibles  ):
+            all_edges_possibles.append(art)
+    dictio_list_art[coo]=lis_art
+    lis_art=[]
+    coo=coo+1
+  #loss of coverage at edge
+  somme_frml=0
+  nbr_lp=0
+  coef_tot=0
+  formule=0
+  som_cov_art=0 #
+  #calculate average of loss of coverage at edge level
+  list_art_cov=[]
+  for edge2 in all_edges_possibles:
+    for iden in dictio_list_art:  
+      if(edge2 in dictio_list_art[iden] ):
+        nbr_lp=redo_lp_mono[iden]
+        formule=nbr_lp*2/len(dict_id_lp[iden])
+        somme_frml=somme_frml+formule
+        coef_tot=coef_tot+nbr_lp
+    if(coef_tot==0):
+      cov=0
+      coef_tot=1
+    else:
+      cov=1-(somme_frml/coef_tot)
+    if(ok_each_edge==1):
+      list_art_cov.append(cov)
+    som_cov_art=som_cov_art+cov
+    coef_tot=0
+    somme_frml=0
+  if(len(all_edges_possibles)==0):
+    cov_moy=som_cov_art/1
+  else:
+    cov_moy=som_cov_art/len(all_edges_possibles)
+  return (cov_moy,list_art_cov,all_edges_possibles)
+  
+```
+
+# loss of coverage at edge level for global graph
+```{python}
+cov3_2=calcul_cov(values_list_lp2,1)
+vect_cov_cy=cov3_2[1]
+cov_gr=cov3_2[0]
+cov_gr 
+
+```
+```
+COV_edge global= 0.34375, 
+COV_edge= [0.0, 0.5, 0.5, 0.25, 0.5, 0.5, 0.5, 0.0]
+edge= [['Decrease, AR activation', 'decrease, male anogenital distance'], ['Altered, Transcription of genes by AR', 'Antagonism, Androgen receptor'], ['Altered, Transcription of genes by AR', 'Decrease, DHT level'], ['Altered, Transcription of genes by AR', 'decrease, transcription of genes by AR'], ['Antagonism, Androgen receptor', 'Decrease, DHT level'], ['Antagonism, Androgen receptor', 'decrease, transcription of genes by AR'], ['Decrease, DHT level', 'decrease, transcription of genes by AR'], ['5alpha-reductase, inhibition', 'Decrease, AR activation']]
+```
+
+```{python}
+df_socs=r.diff_fmls[0:int(r.nbr_event_classs)]
+dr_id_py=r.dr_id 
+
+vect_nbr_drugs=[]
+deb=0
+co=0
+fin2=0
+drg_pass=[]
+for t in range(int(r.nbr_event_classs)): 
+  fin2=fin2+r.diff_fmls[t]
+  for z in dr_id_py[deb:fin2]:
+    if(z not in drg_pass):
+      drg_pass.append(z)
+      co=co+1
+  vect_nbr_drugs.append(co) 
+  deb=fin2
+  co=0
+  
+```
+
+
+```{python}
+df_socs=r.diff_fmls[0:int(r.nbr_event_classs)]
+deb=0
+cov_e_classes=[]
+list_art_class=[]
+cov_art_class=[]
+for i in range(len(df_socs)):
+  fin=vect_nbr_drugs[i]+deb
+  cov=calcul_cov(values_list_lp2[deb:fin],1)
+  cov_e=cov[0]
+  list_art_class.append(cov[2])
+  cov_art_class.append(cov[1])
+  deb=fin
+  cov_e_classes.append(cov_e)
+
+```
+
+# loss of coverage at edge level
+```{python}
+H_vertexs1=[]
+for tar in sm1:
+  H_vertexs1.append(h_sm_lp_dic[tar])
+H_vertexs2=[]
+for tar in sm2:
+  H_vertexs2.append(h_sm_lp_dic[tar])
+
+class_sm2=[]
+for tar in sm2:
+  class_sm2.append(dic_tar_class[tar])
+```
+
+## extract AOP event associations in monopartite graph
+```{python}
+sm1=[]
+sm2=[]
+for ar in cov3_2[2]:
+  if(len(ar)>1):
+    sm1.append(ar[0])
+    sm2.append(ar[1])
+    
+ls_class=[]
+for sm in sm1:
+  ls_class.append(dic_tar_class[sm])  
+
+```
+
+## extract loss of coverage at edge level
+```{r}
+vect_sm1=py$sm1
+vect_sm2=py$sm2
+vect_cov_cy=py$vect_cov_cy
+vect_class=py$ls_class
+class_sm2=py$class_sm2
+loss_coverage_edge=data.frame(vertex1=vect_sm1,vertex2=vect_sm2,los_of_coverage_edge=vect_cov_cy,class_sm1=vect_class,class_sm2=class_sm2)
+loss_coverage_edge
+
+write.table(loss_coverage_edge,file="graph_monopartite_loss ofcoverage_edge.csv",quote = F,row.names = F,sep = "\t")
+
+```
+## loss of coverage for each vertex
+
+```{python}
+tts_edges=cov3_2[2]
+cov_tts_edges=cov3_2[1]
+
+list_tar=[] #la liste de tous les targets
+for ar in tts_edges:
+  if(ar[0] not in list_tar):
+    list_tar.append(ar[0])
+  if(ar[1] not in list_tar):
+    list_tar.append(ar[1])
+
+
+```
+
+
+```{python}
+
+dic_sm_cov={}
+
+for key in list_tar:
+  dic_sm_cov[key]=0
+
+comb_art=0
+
+
+for sm in list_tar:
+  for i in range(len(tts_edges)) :
+    if(sm in tts_edges[i]):
+      dic_sm_cov[sm]=dic_sm_cov[sm]+cov_tts_edges[i]
+      comb_art=comb_art+1
+  dic_sm_cov[sm]=(dic_sm_cov[sm]/comb_art)
+  comb_art=0
+
+```
+
+```{python}
+vect_sm=[]
+vect_cov=[]
+for sm in dic_sm_cov:
+  vect_sm.append(sm)
+  vect_cov.append(dic_sm_cov[sm])
+  
+vect_class=[]
+for sm in h_sm_lp_dic:
+  vect_class.append(dic_tar_class[sm])
+
+```
+
+# result analysis
+
+## extract result loss of coverage for each vertex
+## plot figure: relationship increase in uncertainty-loss of coverage
+```{r width=10 ,fig.height=15}
+vect_sm=py$vect_sm
+vect_cov=py$vect_cov
+vect_class=py$vect_class
+
+#loss of coverage for vertices
+graph_cyto=data.frame(Target=vect_sm,loss_cov=vect_cov,class=vect_class)
+graph_cyto
+
+
+
+#plot figure: relationship increase in uncertainty-loss of coverage
+#increase in uncertainty=Hafter-Hbefore
+delta_h=vector(length = length(py$list_h_aftr_ch_tar) )#deltah: increase in uncertainty
+for (i in 1:length(py$list_h_aftr_ch_tar)) {
+  delta_h[i]=py$h_sm_lp[i]-py$list_h_bfr_ch_tar[i]
+}
+
+#pdf("Relaation_expo_Cov_H.pdf", height=20,width=20)
+relationship={
+plot(py$h_sm_lp~vect_cov,col=rainbow(nbr_event_classs),pch=19,font.axis=2, cex.main=2, cex.lab=2, cex.sub=3,xlab="Loss of coverage",ylab = "Increase in uncentainty [nats]" ,cex=2)
+legend("topleft", legend=names(diff_fmls[1:nbr_event_classs]),col=rainbow(nbr_event_classs), pch=19,cex=3, title="event_classs", text.font=4, bg='lightblue')
+}
+relationship
+```
+
+## boxplot: increase in uncertainty and loss of coverage
+
+```{r fig1, fig.height =5, fig.width = 20}
+
+library(ggplot2)
+#pdf("boxplot_perte_de_couverture.pdf", height=10,width=10)
+
+p1=p=boxplot(graph_cyto$loss_cov~graph_cyto$class,col=rainbow(nbr_event_classs),xlab =("AOPevents"),cex.lab=1,cex.axis=1,ylab = ("Loss Of Coverage"),las=2)
+
+
+#pdf("boxplot_augmentation_incertitude.pdf", height=10,width=30)
+p2=boxplot(py$h_sm_lp~graph_cyto$class,col=rainbow(nbr_event_classs),xlab = "AOPevents",ylab="Increase In Uncertainty",cex.lab=1,cex.axis=1,las=2)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
