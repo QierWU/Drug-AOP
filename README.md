@@ -27,7 +27,7 @@ Bipartite network:
 Here we used case study as example:
 
 Rmd script to calculate:
-*
+* information loss.Rmd
 
 
 
